@@ -1,0 +1,1 @@
+SELECT * FROM hotels AS hot INNER JOIN rooms AS roo ON hot.id = roo.hotel_id;
