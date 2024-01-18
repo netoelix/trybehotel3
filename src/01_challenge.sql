@@ -8,7 +8,7 @@ CREATE TABLE hotels (
     street VARCHAR(80),
     star INTEGER NOT NULL
 );
-INSERT INTO hotels (name, zip_code, state, city, district, street, star)
+INSERT INTO hotels (name, zip_code, city, state, district, street, star)
 VALUES ('Brown, Kihn and Bergnaum', '61749464', 'Christiansenhaven', 'Ohio', 'South', 'Myrna Ports 188', 1),
 ('Dickinson, Mayer and Boyer', '79345910', 'Abbottshire', 'NorthDakota', 'Lake', 'Tommie Street 781', 3),
 ('Hettinger-Raynor', '29551210', 'Pollichborough', 'Wyoming', 'Port', 'Emerson Square 494', 3),
