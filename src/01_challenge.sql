@@ -9,7 +9,7 @@ CREATE TABLE hotels (
     star INTEGER NOT NULL
 );
 INSERT INTO hotels (name, zip_code, state, city, district, street, star)
-VALUES ('Brown, Kihn and Bergnaum', 'Myrna Ports 188', 'South', 'Christiansenhaven', 'Ohio', '61749464', 1),
-('Dickinson, Mayer and Boyer', 'Tommie Street 781', 'Lake', 'Abbottshire', 'NorthDakota', '79345910', 3),
-('Hettinger-Raynor', 'Emerson Square 494', 'Port', 'Pollichborough', 'Wyoming', '29551210', 3),
-('Ernser Inc', 'Bart Knolls 161', 'East', 'Kodymouth', 'Nebraska', '16541278', 4);
+VALUES ('Brown, Kihn and Bergnaum', '61749464', 'Christiansenhaven', 'Ohio', 'South', 'Myrna Ports 188', 1),
+('Dickinson, Mayer and Boyer', '79345910', 'Abbottshire', 'NorthDakota', 'Lake', 'Tommie Street 781', 3),
+('Hettinger-Raynor', '29551210', 'Pollichborough', 'Wyoming', 'Port', 'Emerson Square 494', 3),
+('Ernser Inc', '16541278', 'Kodymouth', 'Nebraska', 'East', 'Bart Knolls 161', 4);
