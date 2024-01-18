@@ -1,11 +1,11 @@
-CREATE TABLE trybe_hotel.rooms (
+CREATE TABLE rooms (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
-    price NUMERIC(6,2) NOT NULL,
+    price FLOAT(6,2) NOT NULL,
     available BOOLEAN DEFAULT TRUE,
     hotel_id INTEGER NOT NULL,
-    FOREIGN KEY (hotel_id) REFERENCES trybe_hotel.hotels(id)
+    FOREIGN KEY (hotel_id) REFERENCES hotels(id)
 );
-INSERT INTO trybe_hotel.rooms (price, available, hotel_id)
+INSERT INTO rooms (price, available, hotel_id)
 VALUES (120.35, 0, 1),
 (200.00, 1, 2),
 (329.99, 0, 1),

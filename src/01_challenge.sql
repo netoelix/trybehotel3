@@ -1,4 +1,4 @@
-CREATE TABLE trybe_hotel.hotels (
+CREATE TABLE hotels (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(80) NOT NULL,
     zip_code VARCHAR(8) NOT NULL,
@@ -8,7 +8,7 @@ CREATE TABLE trybe_hotel.hotels (
     street VARCHAR(80),
     star INTEGER NOT NULL
 );
-INSERT INTO trybe_hotel.hotels (name, zip_code, state, city, district, street, star)
+INSERT INTO hotels (name, zip_code, state, city, district, street, star)
 VALUES ('Brown, Kihn and Bergnaum', 'Myrna Ports 188', 'South', 'Christiansenhaven', 'Ohio', '61749464', 1),
 ('Dickinson, Mayer and Boyer', 'Tommie Street 781', 'Lake', 'Abbottshire', 'NorthDakota', '79345910', 3),
 ('Hettinger-Raynor', 'Emerson Square 494', 'Port', 'Pollichborough', 'Wyoming', '29551210', 3),
